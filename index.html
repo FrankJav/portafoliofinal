@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="estilos/inicio.css">
+    <link rel="stylesheet" href="estilos/sobremi.css">
+    <link rel="stylesheet" href="estilos/skills.css">
+    <link rel="stylesheet" href="estilos/hobbies.css">
+    <link rel="stylesheet" href="estilos/formacion.css">
+    <link rel="stylesheet" href="estilos/portafolio.css">
+    <link rel="stylesheet" href="estilos/contacto.css">
+    <link rel="stylesheet" href="estilos/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Prata&display=swap"
+        rel="stylesheet" />
+    <title>¡¡¡Portafolio!!!</title>
+    <link rel="shortcut icon" href="/img/prtafolio.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <!-- <h1>/LP/</h1> -->
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SKILLS</a></li>
+                            <li><a href="#pasatiempo" onclick="seleccionar(this)">HOBBIES</a></li>
+                            <li><a href="#formaciones" onclick="seleccionar(this)">FORMACION</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PROYECTOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO: hevifrja@gmail.com</a></li>
+
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://twitter.com/frjahevi612"><i class="fa-brands fa-twitter"></i>
+                            <a href="https://www.facebook.com/franciscojavier.hernandezvillagrana"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/frjahevi612?utm_source=qr"><i
+                                    class="fa-brands fa-instagram-square"></i></a>
+
+
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2><span>Francisco Hernández</span><br>Desarrollador Páginas WEB</h2>
+                <p class="descripcion">Felicidad no es hacer lo que uno quiere sino querer lo que uno hace.<br>"Jean
+                    Paul
+                    Sartre"</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/IMG_20230520_132131.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Francisco Hernández</span> </h2>
+            <h3>Desarrollador Páginas Web</h3>
+            <p> Nací en la Ciudad de México, tengo 54 años y actualmente vivo en Guadalajara, mis raices son de los
+                altos de
+                Jalisco donde se producen tequilas muy conocidos. Tengo exeriencia como auxiliar contable y
+                administrativo, manejo de centros de computo y actualmente me preparo como desarrollaldor de páginas
+                WEB.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION S K I L L S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">HABILIDADES EN PROGRAMACION</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-brands fa-html5"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+
+                    <li>HTML5</li>
+
+                </ul>
+                <p>La última versión del lenguaje de marcado estándar utilizado para estructurar y presentar contenido
+                    en la web.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-js"></i></span>
+                <h4>Porgramación JS</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>JavaScript </li>
+                </ul>
+                <p>Es un lenguaje de programación de alto nivel, interpretado y orientado a objetos.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-node-js"></i></span>
+                <h4>Entorno de desarrollo</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Node.JS</li>
+                </ul>
+                <p>Entorno de tiempo de ejecución de código abierto y multiplataforma que permite ejecutar JavaScript
+                    fuera de un navegador web
+                </p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-react"></i></span>
+                <h4>Bibliotecas Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>React</li>
+                </ul>
+                <p>biblioteca de JavaScript de código abierto utilizada para construir interfaces de usuario (UI)
+                    interactivas y reutilizables.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-css3-alt"></i></span>
+                <h4>Diseño y Estilos Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>CSS3</li>
+                </ul>
+                <p> Es la última versión del lenguaje de hojas de estilo utilizado para definir la apariencia y el
+                    diseño de las páginas web.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-github"></i></span>
+                <h4> Plataforma Colaborativo</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>GitHub </li>
+                </ul>
+                <p>Es un sistema de control de versiones para almacenar, gestionar y colaborar en proyectos de software.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H O B B I E S -->
+    <section id="pasatiempo">
+        <h3 class="titulo-seccion">MIS HOBBIES</h3>
+        <div class="fila">
+
+            <div class="servicio">
+                <h4>Senderismo</h4>
+                <hr>
+                <div>
+                    <iframe width="275" height="auto" src="https://www.youtube.com/embed/3VSgZj1luuk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+            </div>
+            <div class="servicio">
+                <h4>Ciclismo</h4>
+                <hr>
+                <div>
+                    <iframe width="275" height="auto" src="https://www.youtube.com/embed/FSC0fC5jdJo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <h4>Cocina</h4>
+                <hr>
+                <div>
+                    <iframe width="275" height="auto" src="https://www.youtube.com/embed/mT4W_ozB3_8?start=2"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <h4>Criptomonedas y Finanzas</h4>
+                <hr>
+                <div>
+                    <iframe width="275" height="" src="https://www.youtube.com/embed/k8hkSa4JcvE?start=6"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="servicio">
+                <h4>Meditación</h4>
+                <hr>
+                <div>
+                    <iframe width="275" height="auto" src="https://www.youtube.com/embed/3oCC4NDgYrY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+            </div>
+            <div class="servicio">
+                <h4>Aprovechar el tiempo libre</h4>
+                <hr>
+                <div>
+                    <iframe width="275" height="auto" src="https://www.youtube.com/embed/4yvZWD6Vby0?start=30"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION F O R M A C I O N -->
+    <section id="formaciones">
+        <h3 class="titulo-seccion">MI FORMACION</h3>
+        <div class="fila">
+            <div class="servicio">
+                <div>
+                    <img src="img/Logo.png" alt="">
+                </div>
+                <br><br>
+                <h4>Business Agility</h4>
+                <hr>
+                <br>
+                <ul class="servicios-tag">
+                </ul>
+                <h4>
+                    Organización para la transformación ágil
+                </h4>
+            </div>
+            <div class="servicio">
+                <div>
+                    <img src="img/Logo.png" alt="">
+                </div>
+                <br><br>
+                <h4>Desarrollo Personal</h4>
+                <hr>
+                <p> Desarrolla habilidades y hábitos fundamentales para el mercado de trabajo
+                </p>
+            </div>
+            <div class="servicio">
+                <div>
+                    <img src="img/Logo.png" alt="">
+                </div><br><br>
+                <h4>Emprendimiento</h4>
+                <hr>
+                <p>Las habilidades para el mercado de tecnología no es solo programación, también incluye organización
+                    personal, trabajo en equipo, habilidades de emprendimiento, etc.
+                </p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <div>
+                    <img src="img/Logo.png" alt="">
+                </div><br><br>
+                <h4>Principiante en Programación</h4>
+                <hr>
+                <p>Guía básica inicial para quien desea entrar en el universo de programación y comenzar con la creación
+                    de páginas web utilizando los lenguajes populares de HTML, CSS y JavaScript
+                </p>
+            </div>
+            <div class="servicio">
+                <div>
+                    <img src="img/Logo.png" alt="">
+                </div> <br><br>
+                <h4>Front End</h4>
+                <hr>
+                <p>Como construir una carrera exitosa en el mercado web desde cero, con HTML, CSS y JavaScript.
+                </p>
+            </div>
+            <div class="servicio">
+                <div>
+                    <img src="img/Logo.png" alt="">
+                </div> <br><br>
+                <h4>React </h4>
+                <hr>
+                <p>Como construir una carrera exitosa en el mercado web desde cero, con HTML, CSS y JavaScript.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mi Portafolio</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/imgencriptador.jpg" alt="">
+
+                <div class="info">
+                    <h4> Proyecto Encriptador de texto</h4>
+                    <p>Diseño Web</p>
+
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/portafolio.jpg" alt="">
+
+                <div class="info">
+                    <h4>Proyecto Portafolio</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/miprimerapagina.jpg" alt="">
+
+                <div class="info">
+                    <h4>Mi primera pagina WEB</h4>
+                    <p>Curso Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/minialura.jpg" alt="">
+                <div class="info">
+                    <h4>Flexbox, HTML y CSS</h4>
+                    <p>Curso Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/apeperia.jpg" alt="">
+                <div class="info">
+                    <h4>Layouts responcivos, movil y tablet</h4>
+                    <p>Curso Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/arquitecturacss.jpg" alt="">
+                <div class="info">
+                    <h4>Arquitectura CSS</h4>
+                    <p>Curso Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/todoapp.jpg" alt="">
+                <div class="info">
+                    <h4>JavaScrip manipulando el DOM</h4>
+                    <p>Curso Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/doguito.jpg" alt="">
+                <div class="info">
+                    <h4>CRUD con JavaScript asincrono</h4>
+                    <p>Curso Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/org.jpg" alt="">
+                <div class="info">
+                    <h4>REACT: Desarrollando con JavaScript</h4>
+                    <p>Curso Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Ponte en contacto</h3>
+        <div class="contenedor-form">
+            <form action=" " method=" ">
+                <div class="fila mitad">
+
+                    <input type="text" placeholder="Nombre Completo *" id="nombre" name="nombre" pattern="[A-Za-z\s]+"
+                        class="input-mitad" required title="Ingrese un nombre válido (solo letras y espacios)">
+
+
+                    <input type="email" placeholder="Dirección de Email" id="email" name="email"
+                        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" class="input-mitad" required>
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Asunto..." class="input-full" required>
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"
+                        required></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                <input type="reset" value="Borrar Formulario" class="btn-borrarFormulario">
+
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-linkedin"></i>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

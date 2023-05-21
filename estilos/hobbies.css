@@ -1,0 +1,94 @@
+        /* *********************/
+        /* seccion S K I L L S */
+        /* *********************/
+        
+        #pasatiempo {
+            padding: 100px 15px;
+            text-align: center;
+            background-color: #fffccb;
+        }
+
+ 
+               
+        #pasatiempo .titulo-seccion {
+            text-align: center;
+            font-size: 22px;
+            text-transform: uppercase;
+            color: #111135;
+            text-decoration: underline;
+            text-decoration-color: #d3d3d3;
+            text-decoration-thickness: 5px;
+        }
+        
+        #pasatiempo .fila {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1150px;
+            margin: 30px auto;
+            background-image: "img/fotojpg";
+
+        }
+        
+        #pasatiempo .fila .servicio {
+            max-width: 350px;
+            background-color: #fff;
+            padding: 30px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: .5s;
+        }
+        
+        #pasatiempo .fila .servicio:hover {
+            box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+        }
+        
+        #pasatiempo .fila .servicio .icono {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #e5bf18;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        
+        #pasatiempo .fila .servicio h4 {
+            font-size: 22px;
+            margin-bottom: 25px;
+        }
+        
+        #pasatiempo .fila .servicio hr {
+            width: 30%;
+            margin: auto;
+            color: #000;
+            margin-bottom: 25px;
+        }
+        
+        #pasatiempo .fila .servicio ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 10px;
+        }
+        
+        #pasatiempo .fila .servicio p {
+            font-size: 14px;
+            line-height: 22px;
+        }
+
+        /* *********************/
+        /* seccion R E S P O N S I V E */
+        /* *********************/
+
+        @media screen and (max-width: 820px) {
+            #pasatiempo {
+                padding: 50px 15px;
+            }
+            #pasatiempo .fila {
+                display: block;
+            }
+            #pasatiempo .fila .servicio {
+                margin: 10px auto;
+            }
+            
+        }
